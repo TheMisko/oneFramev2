@@ -1,22 +1,126 @@
-.App {
+body {
+  margin: 0px;
+  background-color: ghostwhite;
+  font-family: "Roboto", sans-serif;
+}
+
+.all-card img {
+  height: 17vh;
+  width: 12vw;
+}
+
+.hover:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.all-card h3 {
+  position: absolute;
   text-align: center;
+  margin-top: 4.5%;
+  opacity: 0;
+  margin-left: 0.7%;
 }
 
-.App-logo {
-  height: 40vmin;
+.nesto {
+  color: rgb(212, 215, 218);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.all-card:hover h3 {
+  opacity: 1;
+}
+
+.all-flex {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 5%;
+}
+
+.home-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container {
+  margin-top: 3%;
+  margin-right: 3%;
+  margin-left: 5%;
+}
+
+.movie-title h1 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  color: black;
+}
+
+.movie-info-container {
+  margin-left: 25vw;
+  margin-right: 25vw;
+  background-image: linear-gradient(to top, #9ea6af 0%, #e7f0fd 100%);
+  height: 100vh;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.movie-info-img img {
+  height: 55vh;
+  width: 20vw;
+  margin-top: 10%;
+  margin-left: 3%;
+}
+
+.movie-info-img {
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+
+.movie-info-title {
+  margin-left: 5%;
+  margin-top: 3%;
+  margin-right: 15%;
+}
+
+.movie-info-title h4 {
+  margin-block-start: 5%;
+  margin-block-end: 0;
+}
+
+.date-flex {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+.date-flex h4,
+h1 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.imdb h1 {
+  color: #f5c518;
+}
+
+.nav-link {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.nav-link h4 {
+  color: antiquewhite;
+}
+
+.nav-logo {
+  margin-left: 4%;
+}
+
+.nav-logo h1 {
+  color: antiquewhite;
+}
+
+.nav-link2 h4 {
+  color: antiquewhite;
+}
+
+.home-btn h2 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  color: antiquewhite;
 }
